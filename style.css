@@ -1,0 +1,105 @@
+table, th, td {
+	border: 1px solid black;
+	}
+
+td {
+	padding: 3px;
+}
+	
+table {
+	border-collapse: separate;
+}
+/* formatting table1 head */
+#thead1 {
+	font-style: italic;
+	color: black;
+	font-weight: bold;
+}
+
+/* formatting table1 body */	
+#tbody1 tr:nth-child(even){
+	background: #C2E0FF;
+	
+}
+
+#tbody1 tr:nth-child(odd) {
+	background: #66FF99;
+}
+
+#tbody1 td:first-child {
+	font-style: italic;
+}
+
+#tbody1 td:nth-child(2) {
+	color: red;
+}
+
+#tbody1 td:nth-child(5) {
+	color: blue;
+}
+
+/* formatting the dl list */
+#droplist1 dt:hover + dd{
+	background:purple;
+}
+
+/* formatting the forms */
+/* support and resources for form and button found via: 
+	https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms */
+#form1, #form2 {
+	margin: left;
+	width: 400px;
+	padding: 1em;
+	border: 5px solid #CCC;
+}
+
+label {
+	display: inline-block;
+	width: 90px;
+	text-aling: right;
+}
+
+.text_input, .numerical_input, .password {
+	width: 300px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #000000;
+	vertical-align: top;
+}
+
+/* form button */
+.button {
+	/* to position the buttons to the same position of the text fields */
+	padding-left: 90px; /* same size as the label elements */	
+}
+
+button {
+	/* this extra margin represent roughly the same space as the space
+		between the labels and their text fields */
+	margin-left: .5em;
+}
+	
+/* Div Section */
+.Outer-Content {
+	margin-top: 20px;
+	padding: 1em;
+	vertical-align: left;
+	display: block;
+	width: 75%;
+	background-color: pink;
+}
+
+.Inner-Content {
+	margin: 0 auto;
+	width: 75%;
+	background-color: blue;
+	text-align: center;
+}
+
+/* Picture Wrap and Text */
+.fakePicture {
+	float: left;
+	background-color: gray;
+	width: 100px;
+	height: 125px;
+}
